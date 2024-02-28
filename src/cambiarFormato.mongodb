@@ -1,0 +1,16 @@
+db.vehiculos_revista_motor_2023.aggregate([
+    {
+      $addFields: {
+        "Precio_Formateado": {
+          $concat: ["$", {
+            $numberToString: {
+              number: "$Precio",
+              style: "currency",
+              currency: "COP"
+            }
+          }]
+        }
+      }
+    }
+  ])
+  

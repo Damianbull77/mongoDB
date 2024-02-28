@@ -1,0 +1,8 @@
+use("automobiles")
+
+db.vehiculos_revista_motor_2023.find({
+    "Precio": {
+        $gte: 50000000,  
+        $lte: 100000000  
+    }
+})

@@ -1,0 +1,12 @@
+use("automobiles")
+
+db.vehiculos_revista_motor_2023.aggregate([
+  {
+    $match: {
+      Marca: { $regex: "^[M|R|S]", $options: "i" } 
+    }
+  },
+  {
+    $limit: 2
+  }
+])

@@ -1,0 +1,5 @@
+use("automobiles")
+
+db.vehiculos_revista_motor_2023.find({
+    "Marca":  "RENAULT"  
+})

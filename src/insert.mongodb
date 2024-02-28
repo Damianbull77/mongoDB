@@ -1,0 +1,288 @@
+use("automobiles")
+
+db.vehiculos_revista_motor_2023.insertMany([
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "AUDI",
+        "Modelo": "A3 SB ADVANCED AUT",
+        "Precio": 170000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "a4 advanced",
+        "Precio": 185000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "RS3 Sedán ST Quatro",
+        "Precio": 374000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "BMW",
+        "Modelo": "128 ti",
+        "Precio": 210000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "7401",
+        "Precio": 750000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "Z4 SDRIVE 201 SPORT LINE",
+        "Precio": 330000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "M4 COMPETITION PRO",
+        "Precio": 750000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "CHEVROLET",
+        "Modelo": "JOY NB",
+        "Precio": 65000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "JOY HB",
+        "Precio": 64000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "ONIX HB T PREMIER AUT",
+        "Precio": 88000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "CAMARO ZLI",
+        "Precio": 325000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "FIAT",
+        "Modelo": "MOBI LIKE",
+        "Precio": 70000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "FORD",
+        "Modelo": "MUSTANG MACH I",
+        "Precio": 320000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "MUSTANG GT PREMIUM",
+        "Precio": 265000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "HONDA",
+        "Modelo": "CITY LX 4P",
+        "Precio": 100000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "CITY EXL 4P CVT",
+        "Precio": 104000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "KIA",
+        "Modelo": "PICANTO 1.0 EMOTION A.A",
+        "Precio": 56000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "PICANTO 1.25 GT LINE AUT",
+        "Precio": 73000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "RIO SEDAN 1.4 EMOTION AUT",
+        "Precio": 82000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "SOLUTO 1.4 EMOTION",
+        "Precio": 75000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "MAZDA",
+        "Modelo": "2 SPORT 1.5 TOURING",
+        "Precio": 81000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "2 SEDÁN 1.5 TOURING AUT",
+        "Precio": 84000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "MX-5 2.0 AUT GRAND TOURING LX",
+        "Precio": 173000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "MERCEDES BENZ",
+        "Modelo": "A 200 AMG LINE",
+        "Precio": 220000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "AMG A 45 S",
+        "Precio": 405000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "RENAULT",
+        "Modelo": "KWID ZEN",
+        "Precio": 57000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "LOGAN LIFE",
+        "Precio": 79000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "SANDERO ZEN",
+        "Precio": 75000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "STEPWAY ZEN",
+        "Precio": 81000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "SUZUKI",
+        "Modelo": "SWIFT SEDAN GL",
+        "Precio": 78000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "BALENO GL",
+        "Precio": 88000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "S-PRESSO GL",
+        "Precio": 65000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "TOYOTA",
+        "Modelo": "COROLLA GR-S",
+        "Precio": 118000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "YARIS GR",
+        "Precio": 252000000
+    },
+    {
+        "Tipo de vehículo": "Automoviles",
+        "Marca": "",
+        "Modelo": "YARIS SEDÁN XS",
+        "Precio": 86000000
+    },
+    {
+        "Tipo de vehículo": "Utilitarios deportivos (4x2, 4x4)",
+        "Marca": "AUDI",
+        "Modelo": "Q2 AMBITION AUT",
+        "Precio": 155000000
+    },
+    {
+        "Tipo de vehículo": "Utilitarios deportivos (4x2, 4x4)",
+        "Marca": "",
+        "Modelo": "Q3 AMBITION ST",
+        "Precio": 176000000
+    },
+    {
+        "Tipo de vehículo": "Utilitarios deportivos (4x2, 4x4)",
+        "Marca": "",
+        "Modelo": "Q3 PROGRESSIVE QUATTRO",
+        "Precio": 230000000
+    },
+    {
+        "Tipo de vehículo": "Utilitarios deportivos (4x2, 4x4)",
+        "Marca": "BMW",
+        "Modelo": "X2 SDRIVE 181 XLINE",
+        "Precio": 240000000
+    },
+    {
+        "Tipo de vehículo": "Utilitarios deportivos (4x2, 4x4)",
+        "Marca": "CHEVROLET",
+        "Modelo": "TRACKER TLS",
+        "Precio": 101000000
+    },
+    {
+        "Tipo de vehículo": "Utilitarios deportivos (4x2, 4x4)",
+        "Marca": "",
+        "Modelo": "CAPTIVA PREMIER AUT",
+        "Precio": 142000000
+    },
+    {
+        "Tipo de vehículo": "Utilitarios deportivos (4x2, 4x4)",
+        "Marca": "",
+        "Modelo": "TRAVERSE LT",
+        "Precio": 224000000
+    },
+    {
+        "Tipo de vehículo": "Utilitarios deportivos (4x2, 4x4)",
+        "Marca": "RAM",
+        "Modelo": "V700 RAOUD 1,4 BZ",
+        "Precio": 73000000
+    },
+    {
+        "Tipo de vehículo": "Utilitarios deportivos (4x2, 4x4)",
+        "Marca": "",
+        "Modelo": "700 SLT",
+        "Precio": 72000000
+    },
+    {
+        "Tipo de vehículo": "Utilitarios deportivos (4x2, 4x4)",
+        "Marca": "RENAULT",
+        "Modelo": "KANGOO",
+        "Precio": 86000000
+    },
+    {
+        "Tipo de vehículo": "Utilitarios deportivos (4x2, 4x4)",
+        "Marca": "",
+        "Modelo": "MASTER MAXI CARGA",
+        "Precio": 190000000
+    },
+    {
+        "Tipo de vehículo": "Híbridos",
+        "Marca": "NISSAN",
+        "Modelo": "XTRAIL E-POWER ADVANCE",
+        "Precio": 204000000
+    }
+
+])
+

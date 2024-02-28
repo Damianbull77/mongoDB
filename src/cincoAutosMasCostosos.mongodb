@@ -1,0 +1,4 @@
+use("automobiles")
+db.vehiculos_revista_motor_2023.find().sort({ "Precio": -1 }).limit(5)
+
+
